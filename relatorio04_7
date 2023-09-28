@@ -1,0 +1,10 @@
+.text 
+  li $t0, 10
+  li $t2, 0
+  WHILE: bgt $t0,0, Loop
+  j Exit
+  Loop: 
+       add $t2,$t2,5 # $t2++
+       sub $t0,$t0,2 # $t0--
+       j WHILE
+  Exit:

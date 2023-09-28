@@ -1,0 +1,19 @@
+.text
+li $t0,10
+li $t1,25
+li $t2,43
+li $t3,89
+
+srl $s0,$t0,3
+srl $s1,$t1,3
+srl $s2,$t2,3
+srl $s3,$t3,3
+
+sll $s4,$t0,2
+sll $s5,$t1,2
+sll $s6,$t2,2
+sll $s7,$t3,2
+
+
+
+
