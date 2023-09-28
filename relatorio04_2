@@ -1,0 +1,21 @@
+.text
+li $t0,324
+li $t1,100
+
+li $t2,2018
+li $t3,1970
+
+li $t4,66
+li $t5,33
+
+and $s0,$t0,$t1
+and $s1,$t2,$t3
+and $s2,$t4,$t5
+
+or $s3,$t0,$t1
+or $s4,$t2,$t3
+or $s5,$t4,$t5
+
+nor $s6,$t0,$t1
+nor $s7,$t2,$t3
+nor $t8,$t4,$t5
